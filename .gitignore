@@ -1,0 +1,34 @@
+# Node
+node_modules/
+dist/
+dist-ssr/
+*.local
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+.venv_new/
+.env
+.env.local
+
+# ML/Data
+backend/uploads/*
+backend/web_outputs/*
+backend/ml_resources/
+!backend/ml_resources/.gitkeep
+*.pt
+!backend/models/best.pt
+*.onnx
+!backend/models/best.onnx
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db

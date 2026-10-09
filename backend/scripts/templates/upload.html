@@ -1,0 +1,35 @@
+{% extends 'base.html' %}
+{% block title %}Upload | Microplastic Detector{% endblock %}
+{% block content %}
+<section class="grid" style="max-width:780px;">
+  <div class="card">
+    <h2 style="margin-top:0;">Upload Image</h2>
+    <p>Select a microplastic sample image (JPG / PNG). The model will detect fiber, film, fragment and pallet objects.</p>
+    <form action="/predict" method="post" enctype="multipart/form-data">
+      <label for="image" style="font-weight:600;">Image file:</label>
+      <input id="image" type="file" name="image" accept="image/*" required>
+
+        <label for="inference_mode" style="font-weight:600; margin-top: 1rem; display: block;">Detection Mode:</label>
+        <select name="inference_mode" id="inference_mode" style="width: 100%; padding: 8px; border-radius: 4px; border: 1px solid var(--border-color);">
+          <option value="yolo_only">YOLOv8 (Fast)</option>
+          <option value="yolo_rcnn">YOLOv8 + R-CNN (Accurate)</option>
+        </select>
+
+        <label for="confidence" style="font-weight:600; margin-top: 1rem; display: block;">Confidence threshold (lower → more detections):</label>
+        <input id="confidence" name="confidence" type="number" step="0.01" min="0" max="1" value="0.10" style="width:100%; padding:8px; border-radius:4px; border:1px solid var(--border-color);">
+
+      <div class="actions" style="margin-top:1rem;">
+        <button class="btn" type="submit">Analyze</button>
+      </div>
+    </form>
+  </div>
+  <div class="card" style="background:var(--bg);">
+    <h3 style="margin-top:0;">Tips</h3>
+    <ul style="margin:.4rem 0 .2rem 1rem; padding:0;">
+      <li>Clear lighting improves detection confidence.</li>
+      <li>Recommended size ≲ 3000x3000 to keep inference fast.</li>
+      <li>Use theme toggle (top-right) for dark mode.</li>
+    </ul>
+  </div>
+</section>
+{% endblock %}

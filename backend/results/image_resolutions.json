@@ -1,0 +1,1212 @@
+{
+  "total_images": 703,
+  "unique_resolutions": [
+    {
+      "width": 640,
+      "height": 640,
+      "count": 703
+    }
+  ],
+  "samples": [
+    {
+      "path": "c:\\Users\\AYUSH\\OneDrive\\Documents\\Project EPICS\\microplastic_100.v2i.yolov8\\train/images\\104_png.rf.3f6f656ab08f1a9882a1ee01b3661f8b.jpg",
+      "width": 640,
+      "height": 640,
+      "split": "train"
+    },
+    {
+      "path": "c:\\Users\\AYUSH\\OneDrive\\Documents\\Project EPICS\\microplastic_100.v2i.yolov8\\train/images\\104_png.rf.5f2ec6481864faa5e62edc5b50012637.jpg",
+      "width": 640,
+      "height": 640,
+      "split": "train"
+    },
+    {
+      "path": "c:\\Users\\AYUSH\\OneDrive\\Documents\\Project EPICS\\microplastic_100.v2i.yolov8\\train/images\\104_png.rf.f8e346dc9310af6ed1b4c139022cfda4.jpg",
+      "width": 640,
+      "height": 640,
+      "split": "train"
+    },
+    {
+      "path": "c:\\Users\\AYUSH\\OneDrive\\Documents\\Project EPICS\\microplastic_100.v2i.yolov8\\train/images\\116_png.rf.25cae2a1c7abd7757d2e298ea5faee96.jpg",
+      "width": 640,
+      "height": 640,
+      "split": "train"
+    },
+    {
+      "path": "c:\\Users\\AYUSH\\OneDrive\\Documents\\Project EPICS\\microplastic_100.v2i.yolov8\\train/images\\116_png.rf.bf57e25ca8d281bb2c806a7b1e5943ec.jpg",
+      "width": 640,
+      "height": 640,
+      "split": "train"
+    },
+    {
+      "path": "c:\\Users\\AYUSH\\OneDrive\\Documents\\Project EPICS\\microplastic_100.v2i.yolov8\\train/images\\116_png.rf.d402a6209baf0ef709434d0778bb324b.jpg",
+      "width": 640,
+      "height": 640,
+      "split": "train"
+    },
+    {
+      "path": "c:\\Users\\AYUSH\\OneDrive\\Documents\\Project EPICS\\microplastic_100.v2i.yolov8\\train/images\\117_png.rf.358f7957c288ea5e1d2f4cadff0d64ba.jpg",
+      "width": 640,
+      "height": 640,
+      "split": "train"
+    },
+    {
+      "path": "c:\\Users\\AYUSH\\OneDrive\\Documents\\Project EPICS\\microplastic_100.v2i.yolov8\\train/images\\117_png.rf.67846000f305d14b514c7b7a5cd467e6.jpg",
+      "width": 640,
+      "height": 640,
+      "split": "train"
+    },
+    {
+      "path": "c:\\Users\\AYUSH\\OneDrive\\Documents\\Project EPICS\\microplastic_100.v2i.yolov8\\train/images\\117_png.rf.898fbb8b3f0a6b9bff1b49b6184ec9f3.jpg",
+      "width": 640,
+      "height": 640,
+      "split": "train"
+    },
+    {
+      "path": "c:\\Users\\AYUSH\\OneDrive\\Documents\\Project EPICS\\microplastic_100.v2i.yolov8\\train/images\\119_png.rf.28af38590baf8719cc35473a32f752e8.jpg",
+      "width": 640,
+      "height": 640,
+      "split": "train"
+    },
+    {
+      "path": "c:\\Users\\AYUSH\\OneDrive\\Documents\\Project EPICS\\microplastic_100.v2i.yolov8\\train/images\\119_png.rf.88943749c87f97568bcf7c35202d9de7.jpg",
+      "width": 640,
+      "height": 640,
+      "split": "train"
+    },
+    {
+      "path": "c:\\Users\\AYUSH\\OneDrive\\Documents\\Project EPICS\\microplastic_100.v2i.yolov8\\train/images\\119_png.rf.c9af407c15e25e0802decbe4ed26906e.jpg",
+      "width": 640,
+      "height": 640,
+      "split": "train"
+    },
+    {
+      "path": "c:\\Users\\AYUSH\\OneDrive\\Documents\\Project EPICS\\microplastic_100.v2i.yolov8\\train/images\\132-b_png.rf.03758f5320de3362aa6abb9474cb67d7.jpg",
+      "width": 640,
+      "height": 640,
+      "split": "train"
+    },
+    {
+      "path": "c:\\Users\\AYUSH\\OneDrive\\Documents\\Project EPICS\\microplastic_100.v2i.yolov8\\train/images\\132-b_png.rf.dde095cbdb660c0e12f5bbf5cfd61e3f.jpg",
+      "width": 640,
+      "height": 640,
+      "split": "train"
+    },
+    {
+      "path": "c:\\Users\\AYUSH\\OneDrive\\Documents\\Project EPICS\\microplastic_100.v2i.yolov8\\train/images\\132-b_png.rf.ed6c7bdfdb37fbd3da397a57da87a7d3.jpg",
+      "width": 640,
+      "height": 640,
+      "split": "train"
+    },
+    {
+      "path": "c:\\Users\\AYUSH\\OneDrive\\Documents\\Project EPICS\\microplastic_100.v2i.yolov8\\train/images\\143-b_png.rf.317019d0d513a8a3d9e8b7efb76b52fc.jpg",
+      "width": 640,
+      "height": 640,
+      "split": "train"
+    },
+    {
+      "path": "c:\\Users\\AYUSH\\OneDrive\\Documents\\Project EPICS\\microplastic_100.v2i.yolov8\\train/images\\143-b_png.rf.7277c03b8ec0864aa96d01e2cc91300d.jpg",
+      "width": 640,
+      "height": 640,
+      "split": "train"
+    },
+    {
+      "path": "c:\\Users\\AYUSH\\OneDrive\\Documents\\Project EPICS\\microplastic_100.v2i.yolov8\\train/images\\143-b_png.rf.d145d086c5ca21a286282c4c16073086.jpg",
+      "width": 640,
+      "height": 640,
+      "split": "train"
+    },
+    {
+      "path": "c:\\Users\\AYUSH\\OneDrive\\Documents\\Project EPICS\\microplastic_100.v2i.yolov8\\train/images\\147-b_png.rf.7bf0f3dfd484fc41e829e855ebe1ce93.jpg",
+      "width": 640,
+      "height": 640,
+      "split": "train"
+    },
+    {
+      "path": "c:\\Users\\AYUSH\\OneDrive\\Documents\\Project EPICS\\microplastic_100.v2i.yolov8\\train/images\\147-b_png.rf.96d209bef53ccb1e889dbc00074d1150.jpg",
+      "width": 640,
+      "height": 640,
+      "split": "train"
+    },
+    {
+      "path": "c:\\Users\\AYUSH\\OneDrive\\Documents\\Project EPICS\\microplastic_100.v2i.yolov8\\train/images\\147-b_png.rf.a88180cbfd3f2950f1f3ac119616ca1c.jpg",
+      "width": 640,
+      "height": 640,
+      "split": "train"
+    },
+    {
+      "path": "c:\\Users\\AYUSH\\OneDrive\\Documents\\Project EPICS\\microplastic_100.v2i.yolov8\\train/images\\149-b_png.rf.31335555ff25ea3a6a38958f89257cb0.jpg",
+      "width": 640,
+      "height": 640,
+      "split": "train"
+    },
+    {
+      "path": "c:\\Users\\AYUSH\\OneDrive\\Documents\\Project EPICS\\microplastic_100.v2i.yolov8\\train/images\\149-b_png.rf.ed72b517bc81defa82cf22ba084290e2.jpg",
+      "width": 640,
+      "height": 640,
+      "split": "train"
+    },
+    {
+      "path": "c:\\Users\\AYUSH\\OneDrive\\Documents\\Project EPICS\\microplastic_100.v2i.yolov8\\train/images\\149-b_png.rf.fb86b8d26ba52f072a55ebd7a19534cf.jpg",
+      "width": 640,
+      "height": 640,
+      "split": "train"
+    },
+    {
+      "path": "c:\\Users\\AYUSH\\OneDrive\\Documents\\Project EPICS\\microplastic_100.v2i.yolov8\\train/images\\159-b_png.rf.4dffb71b4e9d8410dd2e8ded8a48c189.jpg",
+      "width": 640,
+      "height": 640,
+      "split": "train"
+    },
+    {
+      "path": "c:\\Users\\AYUSH\\OneDrive\\Documents\\Project EPICS\\microplastic_100.v2i.yolov8\\train/images\\159-b_png.rf.8e2adccef14e7279ad852b001acece0a.jpg",
+      "width": 640,
+      "height": 640,
+      "split": "train"
+    },
+    {
+      "path": "c:\\Users\\AYUSH\\OneDrive\\Documents\\Project EPICS\\microplastic_100.v2i.yolov8\\train/images\\159-b_png.rf.efbf36a9f2251514d68d8b222bc62280.jpg",
+      "width": 640,
+      "height": 640,
+      "split": "train"
+    },
+    {
+      "path": "c:\\Users\\AYUSH\\OneDrive\\Documents\\Project EPICS\\microplastic_100.v2i.yolov8\\train/images\\15_png.rf.6b8a6c59e130130b9a2468c2a0a608b1.jpg",
+      "width": 640,
+      "height": 640,
+      "split": "train"
+    },
+    {
+      "path": "c:\\Users\\AYUSH\\OneDrive\\Documents\\Project EPICS\\microplastic_100.v2i.yolov8\\train/images\\15_png.rf.8659dccdcaeb9460e92f92776c8db18c.jpg",
+      "width": 640,
+      "height": 640,
+      "split": "train"
+    },
+    {
+      "path": "c:\\Users\\AYUSH\\OneDrive\\Documents\\Project EPICS\\microplastic_100.v2i.yolov8\\train/images\\15_png.rf.8f7f216114dcb5129573cadd27ae1a28.jpg",
+      "width": 640,
+      "height": 640,
+      "split": "train"
+    },
+    {
+      "path": "c:\\Users\\AYUSH\\OneDrive\\Documents\\Project EPICS\\microplastic_100.v2i.yolov8\\train/images\\163-b_png.rf.cf78b738f79e4c6715b641be9dd38e97.jpg",
+      "width": 640,
+      "height": 640,
+      "split": "train"
+    },
+    {
+      "path": "c:\\Users\\AYUSH\\OneDrive\\Documents\\Project EPICS\\microplastic_100.v2i.yolov8\\train/images\\163-b_png.rf.e135b932d187a90d20d9c1dae19da3b6.jpg",
+      "width": 640,
+      "height": 640,
+      "split": "train"
+    },
+    {
+      "path": "c:\\Users\\AYUSH\\OneDrive\\Documents\\Project EPICS\\microplastic_100.v2i.yolov8\\train/images\\163-b_png.rf.e2caade1d937f9ad29d11175f78252a5.jpg",
+      "width": 640,
+      "height": 640,
+      "split": "train"
+    },
+    {
+      "path": "c:\\Users\\AYUSH\\OneDrive\\Documents\\Project EPICS\\microplastic_100.v2i.yolov8\\train/images\\168-b_png.rf.69b0e9f816787dfcfed1acda846936e0.jpg",
+      "width": 640,
+      "height": 640,
+      "split": "train"
+    },
+    {
+      "path": "c:\\Users\\AYUSH\\OneDrive\\Documents\\Project EPICS\\microplastic_100.v2i.yolov8\\train/images\\168-b_png.rf.89650a6e8ff102fd63479f973d71dcf1.jpg",
+      "width": 640,
+      "height": 640,
+      "split": "train"
+    },
+    {
+      "path": "c:\\Users\\AYUSH\\OneDrive\\Documents\\Project EPICS\\microplastic_100.v2i.yolov8\\train/images\\168-b_png.rf.b8ce882e1a255b7686b7037717e06526.jpg",
+      "width": 640,
+      "height": 640,
+      "split": "train"
+    },
+    {
+      "path": "c:\\Users\\AYUSH\\OneDrive\\Documents\\Project EPICS\\microplastic_100.v2i.yolov8\\train/images\\169-b_png.rf.07cbb407b2e159b889b7572be8814db7.jpg",
+      "width": 640,
+      "height": 640,
+      "split": "train"
+    },
+    {
+      "path": "c:\\Users\\AYUSH\\OneDrive\\Documents\\Project EPICS\\microplastic_100.v2i.yolov8\\train/images\\169-b_png.rf.192a6b0965cb8859a373ac5c1ed3a93a.jpg",
+      "width": 640,
+      "height": 640,
+      "split": "train"
+    },
+    {
+      "path": "c:\\Users\\AYUSH\\OneDrive\\Documents\\Project EPICS\\microplastic_100.v2i.yolov8\\train/images\\169-b_png.rf.ae7b831e9b3832cc96cfc65c7541cd45.jpg",
+      "width": 640,
+      "height": 640,
+      "split": "train"
+    },
+    {
+      "path": "c:\\Users\\AYUSH\\OneDrive\\Documents\\Project EPICS\\microplastic_100.v2i.yolov8\\train/images\\170-b_png.rf.abc77754734b0cb326a9387401fb0df3.jpg",
+      "width": 640,
+      "height": 640,
+      "split": "train"
+    },
+    {
+      "path": "c:\\Users\\AYUSH\\OneDrive\\Documents\\Project EPICS\\microplastic_100.v2i.yolov8\\train/images\\170-b_png.rf.f8b92e534fb7fb1690959645625fe4f8.jpg",
+      "width": 640,
+      "height": 640,
+      "split": "train"
+    },
+    {
+      "path": "c:\\Users\\AYUSH\\OneDrive\\Documents\\Project EPICS\\microplastic_100.v2i.yolov8\\train/images\\170-b_png.rf.ffa64265be893f615a21b8a081d137a8.jpg",
+      "width": 640,
+      "height": 640,
+      "split": "train"
+    },
+    {
+      "path": "c:\\Users\\AYUSH\\OneDrive\\Documents\\Project EPICS\\microplastic_100.v2i.yolov8\\train/images\\17_png.rf.342ca2cd7eec5e8ec6107eb31db7840b.jpg",
+      "width": 640,
+      "height": 640,
+      "split": "train"
+    },
+    {
+      "path": "c:\\Users\\AYUSH\\OneDrive\\Documents\\Project EPICS\\microplastic_100.v2i.yolov8\\train/images\\17_png.rf.508e94202ce2c467e59ad9b93b8ec55e.jpg",
+      "width": 640,
+      "height": 640,
+      "split": "train"
+    },
+    {
+      "path": "c:\\Users\\AYUSH\\OneDrive\\Documents\\Project EPICS\\microplastic_100.v2i.yolov8\\train/images\\17_png.rf.8d6ae9ce3111b71057bb6b11e957a2dc.jpg",
+      "width": 640,
+      "height": 640,
+      "split": "train"
+    },
+    {
+      "path": "c:\\Users\\AYUSH\\OneDrive\\Documents\\Project EPICS\\microplastic_100.v2i.yolov8\\train/images\\189-b_png.rf.22ff822a9faf98dec70f2257bcb66ecc.jpg",
+      "width": 640,
+      "height": 640,
+      "split": "train"
+    },
+    {
+      "path": "c:\\Users\\AYUSH\\OneDrive\\Documents\\Project EPICS\\microplastic_100.v2i.yolov8\\train/images\\189-b_png.rf.605f4056ba144cdb168dd325c54f0717.jpg",
+      "width": 640,
+      "height": 640,
+      "split": "train"
+    },
+    {
+      "path": "c:\\Users\\AYUSH\\OneDrive\\Documents\\Project EPICS\\microplastic_100.v2i.yolov8\\train/images\\189-b_png.rf.6a62fc68c9fccbf7f0fda3875f49a951.jpg",
+      "width": 640,
+      "height": 640,
+      "split": "train"
+    },
+    {
+      "path": "c:\\Users\\AYUSH\\OneDrive\\Documents\\Project EPICS\\microplastic_100.v2i.yolov8\\train/images\\18_png.rf.433ecb76b9fcbf9d0d533ba3d0bd8faa.jpg",
+      "width": 640,
+      "height": 640,
+      "split": "train"
+    },
+    {
+      "path": "c:\\Users\\AYUSH\\OneDrive\\Documents\\Project EPICS\\microplastic_100.v2i.yolov8\\train/images\\18_png.rf.ea25d65fee8a80fae8ae56d37f47277f.jpg",
+      "width": 640,
+      "height": 640,
+      "split": "train"
+    },
+    {
+      "path": "c:\\Users\\AYUSH\\OneDrive\\Documents\\Project EPICS\\microplastic_100.v2i.yolov8\\train/images\\18_png.rf.ed0be5ded4719d918ed88a7afe020820.jpg",
+      "width": 640,
+      "height": 640,
+      "split": "train"
+    },
+    {
+      "path": "c:\\Users\\AYUSH\\OneDrive\\Documents\\Project EPICS\\microplastic_100.v2i.yolov8\\train/images\\192-b_png.rf.302da6177919c8e2c6056c27302f07b7.jpg",
+      "width": 640,
+      "height": 640,
+      "split": "train"
+    },
+    {
+      "path": "c:\\Users\\AYUSH\\OneDrive\\Documents\\Project EPICS\\microplastic_100.v2i.yolov8\\train/images\\192-b_png.rf.763cc47f6c7345f493b24198af798e4f.jpg",
+      "width": 640,
+      "height": 640,
+      "split": "train"
+    },
+    {
+      "path": "c:\\Users\\AYUSH\\OneDrive\\Documents\\Project EPICS\\microplastic_100.v2i.yolov8\\train/images\\192-b_png.rf.8c229af93aded8c3781c4713b9325a8a.jpg",
+      "width": 640,
+      "height": 640,
+      "split": "train"
+    },
+    {
+      "path": "c:\\Users\\AYUSH\\OneDrive\\Documents\\Project EPICS\\microplastic_100.v2i.yolov8\\train/images\\199-b_png.rf.0f5ed0923fd2385f7ff8cba0e6219dd3.jpg",
+      "width": 640,
+      "height": 640,
+      "split": "train"
+    },
+    {
+      "path": "c:\\Users\\AYUSH\\OneDrive\\Documents\\Project EPICS\\microplastic_100.v2i.yolov8\\train/images\\199-b_png.rf.3777d71f89a912a201c94a77ef030dd6.jpg",
+      "width": 640,
+      "height": 640,
+      "split": "train"
+    },
+    {
+      "path": "c:\\Users\\AYUSH\\OneDrive\\Documents\\Project EPICS\\microplastic_100.v2i.yolov8\\train/images\\199-b_png.rf.59550665f98cff5a7b214b484b7ba388.jpg",
+      "width": 640,
+      "height": 640,
+      "split": "train"
+    },
+    {
+      "path": "c:\\Users\\AYUSH\\OneDrive\\Documents\\Project EPICS\\microplastic_100.v2i.yolov8\\train/images\\203-b_png.rf.3cb9268e534ea452bcaac1cd025797ec.jpg",
+      "width": 640,
+      "height": 640,
+      "split": "train"
+    },
+    {
+      "path": "c:\\Users\\AYUSH\\OneDrive\\Documents\\Project EPICS\\microplastic_100.v2i.yolov8\\train/images\\203-b_png.rf.5155dda6ae836c5b22a5effc5aa6b1de.jpg",
+      "width": 640,
+      "height": 640,
+      "split": "train"
+    },
+    {
+      "path": "c:\\Users\\AYUSH\\OneDrive\\Documents\\Project EPICS\\microplastic_100.v2i.yolov8\\train/images\\203-b_png.rf.8aff531831241467928a796d0cb4b3af.jpg",
+      "width": 640,
+      "height": 640,
+      "split": "train"
+    },
+    {
+      "path": "c:\\Users\\AYUSH\\OneDrive\\Documents\\Project EPICS\\microplastic_100.v2i.yolov8\\train/images\\21_png.rf.4bfa0842ba46ea89b4a9163914a377bf.jpg",
+      "width": 640,
+      "height": 640,
+      "split": "train"
+    },
+    {
+      "path": "c:\\Users\\AYUSH\\OneDrive\\Documents\\Project EPICS\\microplastic_100.v2i.yolov8\\train/images\\21_png.rf.9bbff5400ebd74a6fb893c4c989f62b2.jpg",
+      "width": 640,
+      "height": 640,
+      "split": "train"
+    },
+    {
+      "path": "c:\\Users\\AYUSH\\OneDrive\\Documents\\Project EPICS\\microplastic_100.v2i.yolov8\\train/images\\21_png.rf.9feed30535ae8d8e57e18c99ecd3c910.jpg",
+      "width": 640,
+      "height": 640,
+      "split": "train"
+    },
+    {
+      "path": "c:\\Users\\AYUSH\\OneDrive\\Documents\\Project EPICS\\microplastic_100.v2i.yolov8\\train/images\\221-b_png.rf.32cd9354efc21f73a6e23793c203a919.jpg",
+      "width": 640,
+      "height": 640,
+      "split": "train"
+    },
+    {
+      "path": "c:\\Users\\AYUSH\\OneDrive\\Documents\\Project EPICS\\microplastic_100.v2i.yolov8\\train/images\\221-b_png.rf.40f0138f746cf71dd181beafa988711c.jpg",
+      "width": 640,
+      "height": 640,
+      "split": "train"
+    },
+    {
+      "path": "c:\\Users\\AYUSH\\OneDrive\\Documents\\Project EPICS\\microplastic_100.v2i.yolov8\\train/images\\221-b_png.rf.746240cffad28246e41b589e3fb74fd1.jpg",
+      "width": 640,
+      "height": 640,
+      "split": "train"
+    },
+    {
+      "path": "c:\\Users\\AYUSH\\OneDrive\\Documents\\Project EPICS\\microplastic_100.v2i.yolov8\\train/images\\231-b_png.rf.285a9191bba6f638267ca8ca6d92545f.jpg",
+      "width": 640,
+      "height": 640,
+      "split": "train"
+    },
+    {
+      "path": "c:\\Users\\AYUSH\\OneDrive\\Documents\\Project EPICS\\microplastic_100.v2i.yolov8\\train/images\\231-b_png.rf.ab3e59489c51afeeedd5a7a543804427.jpg",
+      "width": 640,
+      "height": 640,
+      "split": "train"
+    },
+    {
+      "path": "c:\\Users\\AYUSH\\OneDrive\\Documents\\Project EPICS\\microplastic_100.v2i.yolov8\\train/images\\231-b_png.rf.f76592459043e46d29b9a02c5cd95e94.jpg",
+      "width": 640,
+      "height": 640,
+      "split": "train"
+    },
+    {
+      "path": "c:\\Users\\AYUSH\\OneDrive\\Documents\\Project EPICS\\microplastic_100.v2i.yolov8\\train/images\\234-b_png.rf.8239bb075b368538821967aa4ea95296.jpg",
+      "width": 640,
+      "height": 640,
+      "split": "train"
+    },
+    {
+      "path": "c:\\Users\\AYUSH\\OneDrive\\Documents\\Project EPICS\\microplastic_100.v2i.yolov8\\train/images\\234-b_png.rf.a45bb03a73774f633c69512fbd8a9f2d.jpg",
+      "width": 640,
+      "height": 640,
+      "split": "train"
+    },
+    {
+      "path": "c:\\Users\\AYUSH\\OneDrive\\Documents\\Project EPICS\\microplastic_100.v2i.yolov8\\train/images\\234-b_png.rf.f7a166ecd34a0928b7708872a61358f9.jpg",
+      "width": 640,
+      "height": 640,
+      "split": "train"
+    },
+    {
+      "path": "c:\\Users\\AYUSH\\OneDrive\\Documents\\Project EPICS\\microplastic_100.v2i.yolov8\\train/images\\239-b_png.rf.6bfe6dd961c2371715343ca07ce7e52e.jpg",
+      "width": 640,
+      "height": 640,
+      "split": "train"
+    },
+    {
+      "path": "c:\\Users\\AYUSH\\OneDrive\\Documents\\Project EPICS\\microplastic_100.v2i.yolov8\\train/images\\239-b_png.rf.acf1fdb144b203961b25633bc1b6c929.jpg",
+      "width": 640,
+      "height": 640,
+      "split": "train"
+    },
+    {
+      "path": "c:\\Users\\AYUSH\\OneDrive\\Documents\\Project EPICS\\microplastic_100.v2i.yolov8\\train/images\\239-b_png.rf.fe0caa1662675219e7e46b8ca1d2a051.jpg",
+      "width": 640,
+      "height": 640,
+      "split": "train"
+    },
+    {
+      "path": "c:\\Users\\AYUSH\\OneDrive\\Documents\\Project EPICS\\microplastic_100.v2i.yolov8\\train/images\\251-c_png.rf.c79714a7b0adf2860ef6656dac84c33b.jpg",
+      "width": 640,
+      "height": 640,
+      "split": "train"
+    },
+    {
+      "path": "c:\\Users\\AYUSH\\OneDrive\\Documents\\Project EPICS\\microplastic_100.v2i.yolov8\\train/images\\251-c_png.rf.e67c7033609f4d9a77dbd2ddddea1184.jpg",
+      "width": 640,
+      "height": 640,
+      "split": "train"
+    },
+    {
+      "path": "c:\\Users\\AYUSH\\OneDrive\\Documents\\Project EPICS\\microplastic_100.v2i.yolov8\\train/images\\251-c_png.rf.e8dc374286217e36a310f59dddf7dc0c.jpg",
+      "width": 640,
+      "height": 640,
+      "split": "train"
+    },
+    {
+      "path": "c:\\Users\\AYUSH\\OneDrive\\Documents\\Project EPICS\\microplastic_100.v2i.yolov8\\train/images\\265-c_png.rf.116af6f16c3df19c690456130425c578.jpg",
+      "width": 640,
+      "height": 640,
+      "split": "train"
+    },
+    {
+      "path": "c:\\Users\\AYUSH\\OneDrive\\Documents\\Project EPICS\\microplastic_100.v2i.yolov8\\train/images\\265-c_png.rf.c49f26bb7a3e9140f35c1919bb0e96c5.jpg",
+      "width": 640,
+      "height": 640,
+      "split": "train"
+    },
+    {
+      "path": "c:\\Users\\AYUSH\\OneDrive\\Documents\\Project EPICS\\microplastic_100.v2i.yolov8\\train/images\\265-c_png.rf.e2700990a0772adc7edeafa994d8d1e7.jpg",
+      "width": 640,
+      "height": 640,
+      "split": "train"
+    },
+    {
+      "path": "c:\\Users\\AYUSH\\OneDrive\\Documents\\Project EPICS\\microplastic_100.v2i.yolov8\\train/images\\268-c_png.rf.6e1f579e3f5e7d399973ab32a456d85e.jpg",
+      "width": 640,
+      "height": 640,
+      "split": "train"
+    },
+    {
+      "path": "c:\\Users\\AYUSH\\OneDrive\\Documents\\Project EPICS\\microplastic_100.v2i.yolov8\\train/images\\268-c_png.rf.8f59afce6f0456832bb5db37880a1e28.jpg",
+      "width": 640,
+      "height": 640,
+      "split": "train"
+    },
+    {
+      "path": "c:\\Users\\AYUSH\\OneDrive\\Documents\\Project EPICS\\microplastic_100.v2i.yolov8\\train/images\\268-c_png.rf.ca6768c149e85a84106c94171ab2cecd.jpg",
+      "width": 640,
+      "height": 640,
+      "split": "train"
+    },
+    {
+      "path": "c:\\Users\\AYUSH\\OneDrive\\Documents\\Project EPICS\\microplastic_100.v2i.yolov8\\train/images\\26_png.rf.1b06ea3209f8ebc1431654394c38b654.jpg",
+      "width": 640,
+      "height": 640,
+      "split": "train"
+    },
+    {
+      "path": "c:\\Users\\AYUSH\\OneDrive\\Documents\\Project EPICS\\microplastic_100.v2i.yolov8\\train/images\\26_png.rf.9a1f3b6e8b7a12158af91e903f699ac3.jpg",
+      "width": 640,
+      "height": 640,
+      "split": "train"
+    },
+    {
+      "path": "c:\\Users\\AYUSH\\OneDrive\\Documents\\Project EPICS\\microplastic_100.v2i.yolov8\\train/images\\26_png.rf.e9f89a113f3fd8de44c777d4a03c5ebe.jpg",
+      "width": 640,
+      "height": 640,
+      "split": "train"
+    },
+    {
+      "path": "c:\\Users\\AYUSH\\OneDrive\\Documents\\Project EPICS\\microplastic_100.v2i.yolov8\\train/images\\273-c_png.rf.03979df271364ca12050383676799124.jpg",
+      "width": 640,
+      "height": 640,
+      "split": "train"
+    },
+    {
+      "path": "c:\\Users\\AYUSH\\OneDrive\\Documents\\Project EPICS\\microplastic_100.v2i.yolov8\\train/images\\273-c_png.rf.6cabedfa758cea0532c51bfa665ca9dd.jpg",
+      "width": 640,
+      "height": 640,
+      "split": "train"
+    },
+    {
+      "path": "c:\\Users\\AYUSH\\OneDrive\\Documents\\Project EPICS\\microplastic_100.v2i.yolov8\\train/images\\273-c_png.rf.87fa5504d9c87327792ed3b8f9b6d16f.jpg",
+      "width": 640,
+      "height": 640,
+      "split": "train"
+    },
+    {
+      "path": "c:\\Users\\AYUSH\\OneDrive\\Documents\\Project EPICS\\microplastic_100.v2i.yolov8\\train/images\\27_png.rf.4bf6a3ca0169f6440c60b1c5f7686f4e.jpg",
+      "width": 640,
+      "height": 640,
+      "split": "train"
+    },
+    {
+      "path": "c:\\Users\\AYUSH\\OneDrive\\Documents\\Project EPICS\\microplastic_100.v2i.yolov8\\train/images\\27_png.rf.85b131e6f4626aac4c274642aa79e0be.jpg",
+      "width": 640,
+      "height": 640,
+      "split": "train"
+    },
+    {
+      "path": "c:\\Users\\AYUSH\\OneDrive\\Documents\\Project EPICS\\microplastic_100.v2i.yolov8\\train/images\\27_png.rf.be38cb509ea7509e6e16961c30b830e9.jpg",
+      "width": 640,
+      "height": 640,
+      "split": "train"
+    },
+    {
+      "path": "c:\\Users\\AYUSH\\OneDrive\\Documents\\Project EPICS\\microplastic_100.v2i.yolov8\\train/images\\281-c_png.rf.4578ef297ff53e51f03090900997d17a.jpg",
+      "width": 640,
+      "height": 640,
+      "split": "train"
+    },
+    {
+      "path": "c:\\Users\\AYUSH\\OneDrive\\Documents\\Project EPICS\\microplastic_100.v2i.yolov8\\train/images\\281-c_png.rf.b9c313b6c3f1d5bd597beb4b5dd19950.jpg",
+      "width": 640,
+      "height": 640,
+      "split": "train"
+    },
+    {
+      "path": "c:\\Users\\AYUSH\\OneDrive\\Documents\\Project EPICS\\microplastic_100.v2i.yolov8\\train/images\\281-c_png.rf.e325b2bddf1b79e75107653c79a61c0b.jpg",
+      "width": 640,
+      "height": 640,
+      "split": "train"
+    },
+    {
+      "path": "c:\\Users\\AYUSH\\OneDrive\\Documents\\Project EPICS\\microplastic_100.v2i.yolov8\\train/images\\293-c_png.rf.5499d553de56dd851add15aae6cf0ad9.jpg",
+      "width": 640,
+      "height": 640,
+      "split": "train"
+    },
+    {
+      "path": "c:\\Users\\AYUSH\\OneDrive\\Documents\\Project EPICS\\microplastic_100.v2i.yolov8\\train/images\\293-c_png.rf.927f01464dbaf8d709350231ed457e7c.jpg",
+      "width": 640,
+      "height": 640,
+      "split": "train"
+    },
+    {
+      "path": "c:\\Users\\AYUSH\\OneDrive\\Documents\\Project EPICS\\microplastic_100.v2i.yolov8\\train/images\\293-c_png.rf.ac9496136f6daaf2f7f29aadce8431c4.jpg",
+      "width": 640,
+      "height": 640,
+      "split": "train"
+    },
+    {
+      "path": "c:\\Users\\AYUSH\\OneDrive\\Documents\\Project EPICS\\microplastic_100.v2i.yolov8\\train/images\\295-c_png.rf.6b4d3868ecd8eadc31ba04e52408af3c.jpg",
+      "width": 640,
+      "height": 640,
+      "split": "train"
+    },
+    {
+      "path": "c:\\Users\\AYUSH\\OneDrive\\Documents\\Project EPICS\\microplastic_100.v2i.yolov8\\train/images\\295-c_png.rf.6b578691e418b5c11723201982e4d1af.jpg",
+      "width": 640,
+      "height": 640,
+      "split": "train"
+    },
+    {
+      "path": "c:\\Users\\AYUSH\\OneDrive\\Documents\\Project EPICS\\microplastic_100.v2i.yolov8\\train/images\\295-c_png.rf.8c2d578dabdb1b958b25d401dcc8aeee.jpg",
+      "width": 640,
+      "height": 640,
+      "split": "train"
+    },
+    {
+      "path": "c:\\Users\\AYUSH\\OneDrive\\Documents\\Project EPICS\\microplastic_100.v2i.yolov8\\train/images\\306-c_png.rf.2c796a096bef42632b87a8556ef880a6.jpg",
+      "width": 640,
+      "height": 640,
+      "split": "train"
+    },
+    {
+      "path": "c:\\Users\\AYUSH\\OneDrive\\Documents\\Project EPICS\\microplastic_100.v2i.yolov8\\train/images\\306-c_png.rf.a61cca3ccaec00ddfb890e8668dee5d1.jpg",
+      "width": 640,
+      "height": 640,
+      "split": "train"
+    },
+    {
+      "path": "c:\\Users\\AYUSH\\OneDrive\\Documents\\Project EPICS\\microplastic_100.v2i.yolov8\\train/images\\306-c_png.rf.eb29914029e1fd7dd74d37e0cc874bfc.jpg",
+      "width": 640,
+      "height": 640,
+      "split": "train"
+    },
+    {
+      "path": "c:\\Users\\AYUSH\\OneDrive\\Documents\\Project EPICS\\microplastic_100.v2i.yolov8\\train/images\\324-c_png.rf.3a203a5a50227b656356e13444757d8e.jpg",
+      "width": 640,
+      "height": 640,
+      "split": "train"
+    },
+    {
+      "path": "c:\\Users\\AYUSH\\OneDrive\\Documents\\Project EPICS\\microplastic_100.v2i.yolov8\\train/images\\324-c_png.rf.4857a3bebb26c8fc4a19e5caf74eb930.jpg",
+      "width": 640,
+      "height": 640,
+      "split": "train"
+    },
+    {
+      "path": "c:\\Users\\AYUSH\\OneDrive\\Documents\\Project EPICS\\microplastic_100.v2i.yolov8\\train/images\\324-c_png.rf.9522f495ec32a8659c4447701eea4c26.jpg",
+      "width": 640,
+      "height": 640,
+      "split": "train"
+    },
+    {
+      "path": "c:\\Users\\AYUSH\\OneDrive\\Documents\\Project EPICS\\microplastic_100.v2i.yolov8\\train/images\\325-c_png.rf.2a6a2cee508c85067fd3576acb4c70dd.jpg",
+      "width": 640,
+      "height": 640,
+      "split": "train"
+    },
+    {
+      "path": "c:\\Users\\AYUSH\\OneDrive\\Documents\\Project EPICS\\microplastic_100.v2i.yolov8\\train/images\\325-c_png.rf.49cb6cd5c63a4b3810fc48ce26e23396.jpg",
+      "width": 640,
+      "height": 640,
+      "split": "train"
+    },
+    {
+      "path": "c:\\Users\\AYUSH\\OneDrive\\Documents\\Project EPICS\\microplastic_100.v2i.yolov8\\train/images\\325-c_png.rf.daa3acd4f3cf5093badd8641de0c0009.jpg",
+      "width": 640,
+      "height": 640,
+      "split": "train"
+    },
+    {
+      "path": "c:\\Users\\AYUSH\\OneDrive\\Documents\\Project EPICS\\microplastic_100.v2i.yolov8\\train/images\\344-c_png.rf.2fdcbc90d9d0254f5384ec659f7a3257.jpg",
+      "width": 640,
+      "height": 640,
+      "split": "train"
+    },
+    {
+      "path": "c:\\Users\\AYUSH\\OneDrive\\Documents\\Project EPICS\\microplastic_100.v2i.yolov8\\train/images\\344-c_png.rf.6474b5b148fc5ebcf136f7e08b77cc74.jpg",
+      "width": 640,
+      "height": 640,
+      "split": "train"
+    },
+    {
+      "path": "c:\\Users\\AYUSH\\OneDrive\\Documents\\Project EPICS\\microplastic_100.v2i.yolov8\\train/images\\344-c_png.rf.65a9fd6505008cd4cd81d3b16cd97bc3.jpg",
+      "width": 640,
+      "height": 640,
+      "split": "train"
+    },
+    {
+      "path": "c:\\Users\\AYUSH\\OneDrive\\Documents\\Project EPICS\\microplastic_100.v2i.yolov8\\train/images\\346-c_png.rf.57ef827b34a1a8caa4eaaa410a35db23.jpg",
+      "width": 640,
+      "height": 640,
+      "split": "train"
+    },
+    {
+      "path": "c:\\Users\\AYUSH\\OneDrive\\Documents\\Project EPICS\\microplastic_100.v2i.yolov8\\train/images\\346-c_png.rf.6f8ced43ac159ab05218ac5829ca8cad.jpg",
+      "width": 640,
+      "height": 640,
+      "split": "train"
+    },
+    {
+      "path": "c:\\Users\\AYUSH\\OneDrive\\Documents\\Project EPICS\\microplastic_100.v2i.yolov8\\train/images\\346-c_png.rf.82b8bc1e391f6f589fb07c411ed74229.jpg",
+      "width": 640,
+      "height": 640,
+      "split": "train"
+    },
+    {
+      "path": "c:\\Users\\AYUSH\\OneDrive\\Documents\\Project EPICS\\microplastic_100.v2i.yolov8\\train/images\\364-c_png.rf.4e7913394c68d33461bee4a4f13d5269.jpg",
+      "width": 640,
+      "height": 640,
+      "split": "train"
+    },
+    {
+      "path": "c:\\Users\\AYUSH\\OneDrive\\Documents\\Project EPICS\\microplastic_100.v2i.yolov8\\train/images\\364-c_png.rf.7673257b6103b139d67a7d0da8c0b1f9.jpg",
+      "width": 640,
+      "height": 640,
+      "split": "train"
+    },
+    {
+      "path": "c:\\Users\\AYUSH\\OneDrive\\Documents\\Project EPICS\\microplastic_100.v2i.yolov8\\train/images\\364-c_png.rf.aad3a9ad3dafeb9e02c743e33913e701.jpg",
+      "width": 640,
+      "height": 640,
+      "split": "train"
+    },
+    {
+      "path": "c:\\Users\\AYUSH\\OneDrive\\Documents\\Project EPICS\\microplastic_100.v2i.yolov8\\train/images\\374-c_png.rf.0b73e730deeb1ef9b2e93fd44f195ddc.jpg",
+      "width": 640,
+      "height": 640,
+      "split": "train"
+    },
+    {
+      "path": "c:\\Users\\AYUSH\\OneDrive\\Documents\\Project EPICS\\microplastic_100.v2i.yolov8\\train/images\\374-c_png.rf.91897b25c35c9f46dfab48e3be823684.jpg",
+      "width": 640,
+      "height": 640,
+      "split": "train"
+    },
+    {
+      "path": "c:\\Users\\AYUSH\\OneDrive\\Documents\\Project EPICS\\microplastic_100.v2i.yolov8\\train/images\\374-c_png.rf.9fa8a0a44a1c1fec3907295a96b5e5d4.jpg",
+      "width": 640,
+      "height": 640,
+      "split": "train"
+    },
+    {
+      "path": "c:\\Users\\AYUSH\\OneDrive\\Documents\\Project EPICS\\microplastic_100.v2i.yolov8\\train/images\\375-c_png.rf.2cede72de597bb33b7b2ba02eb188ffa.jpg",
+      "width": 640,
+      "height": 640,
+      "split": "train"
+    },
+    {
+      "path": "c:\\Users\\AYUSH\\OneDrive\\Documents\\Project EPICS\\microplastic_100.v2i.yolov8\\train/images\\375-c_png.rf.9d5bf5abdd278b2c75b63805ab492f67.jpg",
+      "width": 640,
+      "height": 640,
+      "split": "train"
+    },
+    {
+      "path": "c:\\Users\\AYUSH\\OneDrive\\Documents\\Project EPICS\\microplastic_100.v2i.yolov8\\train/images\\375-c_png.rf.d5a0dc56e98871ed0f36c87ae7a46f89.jpg",
+      "width": 640,
+      "height": 640,
+      "split": "train"
+    },
+    {
+      "path": "c:\\Users\\AYUSH\\OneDrive\\Documents\\Project EPICS\\microplastic_100.v2i.yolov8\\train/images\\386-d_png.rf.1196e6bf96bb66dfc63efc881f884ec7.jpg",
+      "width": 640,
+      "height": 640,
+      "split": "train"
+    },
+    {
+      "path": "c:\\Users\\AYUSH\\OneDrive\\Documents\\Project EPICS\\microplastic_100.v2i.yolov8\\train/images\\386-d_png.rf.85a320853ba3a79f5ebf34c77654d482.jpg",
+      "width": 640,
+      "height": 640,
+      "split": "train"
+    },
+    {
+      "path": "c:\\Users\\AYUSH\\OneDrive\\Documents\\Project EPICS\\microplastic_100.v2i.yolov8\\train/images\\386-d_png.rf.f3f4a8d997b095436ef9c32e8c4c5577.jpg",
+      "width": 640,
+      "height": 640,
+      "split": "train"
+    },
+    {
+      "path": "c:\\Users\\AYUSH\\OneDrive\\Documents\\Project EPICS\\microplastic_100.v2i.yolov8\\train/images\\397-d_png.rf.221e99b38c08a2a8e62e0b4baa88b4ee.jpg",
+      "width": 640,
+      "height": 640,
+      "split": "train"
+    },
+    {
+      "path": "c:\\Users\\AYUSH\\OneDrive\\Documents\\Project EPICS\\microplastic_100.v2i.yolov8\\train/images\\397-d_png.rf.6fa4e440aea9f396dfd4a821ebf10419.jpg",
+      "width": 640,
+      "height": 640,
+      "split": "train"
+    },
+    {
+      "path": "c:\\Users\\AYUSH\\OneDrive\\Documents\\Project EPICS\\microplastic_100.v2i.yolov8\\train/images\\397-d_png.rf.8717b090ce6eb30838c6a4bd176b7725.jpg",
+      "width": 640,
+      "height": 640,
+      "split": "train"
+    },
+    {
+      "path": "c:\\Users\\AYUSH\\OneDrive\\Documents\\Project EPICS\\microplastic_100.v2i.yolov8\\train/images\\400-d_png.rf.453f13c253b9d1135c9ec530cc930c90.jpg",
+      "width": 640,
+      "height": 640,
+      "split": "train"
+    },
+    {
+      "path": "c:\\Users\\AYUSH\\OneDrive\\Documents\\Project EPICS\\microplastic_100.v2i.yolov8\\train/images\\400-d_png.rf.7eb955f75e7911c4ef10b7f13d72be2b.jpg",
+      "width": 640,
+      "height": 640,
+      "split": "train"
+    },
+    {
+      "path": "c:\\Users\\AYUSH\\OneDrive\\Documents\\Project EPICS\\microplastic_100.v2i.yolov8\\train/images\\400-d_png.rf.cfc40e496ead773bf4a13e406786a8cb.jpg",
+      "width": 640,
+      "height": 640,
+      "split": "train"
+    },
+    {
+      "path": "c:\\Users\\AYUSH\\OneDrive\\Documents\\Project EPICS\\microplastic_100.v2i.yolov8\\train/images\\40_png.rf.63818018539ae3717cdef0274a0fcc40.jpg",
+      "width": 640,
+      "height": 640,
+      "split": "train"
+    },
+    {
+      "path": "c:\\Users\\AYUSH\\OneDrive\\Documents\\Project EPICS\\microplastic_100.v2i.yolov8\\train/images\\40_png.rf.93a78eaf1d8cff55db2272b3fcd3874e.jpg",
+      "width": 640,
+      "height": 640,
+      "split": "train"
+    },
+    {
+      "path": "c:\\Users\\AYUSH\\OneDrive\\Documents\\Project EPICS\\microplastic_100.v2i.yolov8\\train/images\\40_png.rf.e693e6ded296d5cfcb434ca021c972c3.jpg",
+      "width": 640,
+      "height": 640,
+      "split": "train"
+    },
+    {
+      "path": "c:\\Users\\AYUSH\\OneDrive\\Documents\\Project EPICS\\microplastic_100.v2i.yolov8\\train/images\\50_png.rf.44ae0389dc4c91d70c0b3580445f18ed.jpg",
+      "width": 640,
+      "height": 640,
+      "split": "train"
+    },
+    {
+      "path": "c:\\Users\\AYUSH\\OneDrive\\Documents\\Project EPICS\\microplastic_100.v2i.yolov8\\train/images\\50_png.rf.4fe1b0268ea10e20f51726bcec000fec.jpg",
+      "width": 640,
+      "height": 640,
+      "split": "train"
+    },
+    {
+      "path": "c:\\Users\\AYUSH\\OneDrive\\Documents\\Project EPICS\\microplastic_100.v2i.yolov8\\train/images\\50_png.rf.a019fe73de762c44c34f4da586eae00f.jpg",
+      "width": 640,
+      "height": 640,
+      "split": "train"
+    },
+    {
+      "path": "c:\\Users\\AYUSH\\OneDrive\\Documents\\Project EPICS\\microplastic_100.v2i.yolov8\\train/images\\52_png.rf.0ea65c9c31ea15ac043ab9e02fb944b6.jpg",
+      "width": 640,
+      "height": 640,
+      "split": "train"
+    },
+    {
+      "path": "c:\\Users\\AYUSH\\OneDrive\\Documents\\Project EPICS\\microplastic_100.v2i.yolov8\\train/images\\52_png.rf.7e13389202150010e3c719b092b6f07d.jpg",
+      "width": 640,
+      "height": 640,
+      "split": "train"
+    },
+    {
+      "path": "c:\\Users\\AYUSH\\OneDrive\\Documents\\Project EPICS\\microplastic_100.v2i.yolov8\\train/images\\52_png.rf.e4f689fdcb751a52f459fa18b14b29b1.jpg",
+      "width": 640,
+      "height": 640,
+      "split": "train"
+    },
+    {
+      "path": "c:\\Users\\AYUSH\\OneDrive\\Documents\\Project EPICS\\microplastic_100.v2i.yolov8\\train/images\\5_png.rf.0b5482723eef54539a6e52fcad5ab7c3.jpg",
+      "width": 640,
+      "height": 640,
+      "split": "train"
+    },
+    {
+      "path": "c:\\Users\\AYUSH\\OneDrive\\Documents\\Project EPICS\\microplastic_100.v2i.yolov8\\train/images\\5_png.rf.45ad2fa03830b5a6c45e85ce65972a46.jpg",
+      "width": 640,
+      "height": 640,
+      "split": "train"
+    },
+    {
+      "path": "c:\\Users\\AYUSH\\OneDrive\\Documents\\Project EPICS\\microplastic_100.v2i.yolov8\\train/images\\5_png.rf.7fe547e596ebbfb78f3b3005349c530f.jpg",
+      "width": 640,
+      "height": 640,
+      "split": "train"
+    },
+    {
+      "path": "c:\\Users\\AYUSH\\OneDrive\\Documents\\Project EPICS\\microplastic_100.v2i.yolov8\\train/images\\68_png.rf.2de7398696744ad893e0734cc19ef9f4.jpg",
+      "width": 640,
+      "height": 640,
+      "split": "train"
+    },
+    {
+      "path": "c:\\Users\\AYUSH\\OneDrive\\Documents\\Project EPICS\\microplastic_100.v2i.yolov8\\train/images\\68_png.rf.54605f17dfa4613516a6f0ea126ccec4.jpg",
+      "width": 640,
+      "height": 640,
+      "split": "train"
+    },
+    {
+      "path": "c:\\Users\\AYUSH\\OneDrive\\Documents\\Project EPICS\\microplastic_100.v2i.yolov8\\train/images\\68_png.rf.62660d099b405cacc56c3a57e50c7725.jpg",
+      "width": 640,
+      "height": 640,
+      "split": "train"
+    },
+    {
+      "path": "c:\\Users\\AYUSH\\OneDrive\\Documents\\Project EPICS\\microplastic_100.v2i.yolov8\\train/images\\69_png.rf.0c401b4dae6e9267f162dd9922be71d7.jpg",
+      "width": 640,
+      "height": 640,
+      "split": "train"
+    },
+    {
+      "path": "c:\\Users\\AYUSH\\OneDrive\\Documents\\Project EPICS\\microplastic_100.v2i.yolov8\\train/images\\69_png.rf.2b8cae06fe035f25c0df98990740b390.jpg",
+      "width": 640,
+      "height": 640,
+      "split": "train"
+    },
+    {
+      "path": "c:\\Users\\AYUSH\\OneDrive\\Documents\\Project EPICS\\microplastic_100.v2i.yolov8\\train/images\\69_png.rf.61a92bccb14db7e1707176ca38d2b497.jpg",
+      "width": 640,
+      "height": 640,
+      "split": "train"
+    },
+    {
+      "path": "c:\\Users\\AYUSH\\OneDrive\\Documents\\Project EPICS\\microplastic_100.v2i.yolov8\\train/images\\76_png.rf.0cccfd6b0512adff8916d1cc0b0fa236.jpg",
+      "width": 640,
+      "height": 640,
+      "split": "train"
+    },
+    {
+      "path": "c:\\Users\\AYUSH\\OneDrive\\Documents\\Project EPICS\\microplastic_100.v2i.yolov8\\train/images\\76_png.rf.598db33bc31cde9e485d01f137ea4f42.jpg",
+      "width": 640,
+      "height": 640,
+      "split": "train"
+    },
+    {
+      "path": "c:\\Users\\AYUSH\\OneDrive\\Documents\\Project EPICS\\microplastic_100.v2i.yolov8\\train/images\\76_png.rf.b84f202aca437bdb5dbd50d8c56db8f9.jpg",
+      "width": 640,
+      "height": 640,
+      "split": "train"
+    },
+    {
+      "path": "c:\\Users\\AYUSH\\OneDrive\\Documents\\Project EPICS\\microplastic_100.v2i.yolov8\\train/images\\91_png.rf.41c157c703516cce4e0a0c206430d23d.jpg",
+      "width": 640,
+      "height": 640,
+      "split": "train"
+    },
+    {
+      "path": "c:\\Users\\AYUSH\\OneDrive\\Documents\\Project EPICS\\microplastic_100.v2i.yolov8\\train/images\\91_png.rf.7286e531154792caa83d22a9d05dfb76.jpg",
+      "width": 640,
+      "height": 640,
+      "split": "train"
+    },
+    {
+      "path": "c:\\Users\\AYUSH\\OneDrive\\Documents\\Project EPICS\\microplastic_100.v2i.yolov8\\train/images\\91_png.rf.a4cc908faa6b19ce9b9d58c55c72643d.jpg",
+      "width": 640,
+      "height": 640,
+      "split": "train"
+    },
+    {
+      "path": "c:\\Users\\AYUSH\\OneDrive\\Documents\\Project EPICS\\microplastic_100.v2i.yolov8\\train/images\\93_png.rf.bed9e6d50348142090802ad3edff61de.jpg",
+      "width": 640,
+      "height": 640,
+      "split": "train"
+    },
+    {
+      "path": "c:\\Users\\AYUSH\\OneDrive\\Documents\\Project EPICS\\microplastic_100.v2i.yolov8\\train/images\\93_png.rf.f741cd968b82a318bba33331736cbc7a.jpg",
+      "width": 640,
+      "height": 640,
+      "split": "train"
+    },
+    {
+      "path": "c:\\Users\\AYUSH\\OneDrive\\Documents\\Project EPICS\\microplastic_100.v2i.yolov8\\train/images\\93_png.rf.f9df259706ae93b234ad7a23231789c8.jpg",
+      "width": 640,
+      "height": 640,
+      "split": "train"
+    },
+    {
+      "path": "c:\\Users\\AYUSH\\OneDrive\\Documents\\Project EPICS\\microplastic_100.v2i.yolov8\\train/images\\94_png.rf.30040e5c7e3a2d734f598c39727ca76c.jpg",
+      "width": 640,
+      "height": 640,
+      "split": "train"
+    },
+    {
+      "path": "c:\\Users\\AYUSH\\OneDrive\\Documents\\Project EPICS\\microplastic_100.v2i.yolov8\\train/images\\94_png.rf.5f85719962ea64de57e23e93307c9e1e.jpg",
+      "width": 640,
+      "height": 640,
+      "split": "train"
+    },
+    {
+      "path": "c:\\Users\\AYUSH\\OneDrive\\Documents\\Project EPICS\\microplastic_100.v2i.yolov8\\train/images\\94_png.rf.dc291b69607c503411051f3dc2c5e46f.jpg",
+      "width": 640,
+      "height": 640,
+      "split": "train"
+    },
+    {
+      "path": "c:\\Users\\AYUSH\\OneDrive\\Documents\\Project EPICS\\microplastic_100.v2i.yolov8\\train/images\\99_png.rf.01978e0133a7c564c529e3a9281ae90c.jpg",
+      "width": 640,
+      "height": 640,
+      "split": "train"
+    },
+    {
+      "path": "c:\\Users\\AYUSH\\OneDrive\\Documents\\Project EPICS\\microplastic_100.v2i.yolov8\\train/images\\99_png.rf.7b23ad4f790b4cd43d2f14c7e6f0287c.jpg",
+      "width": 640,
+      "height": 640,
+      "split": "train"
+    },
+    {
+      "path": "c:\\Users\\AYUSH\\OneDrive\\Documents\\Project EPICS\\microplastic_100.v2i.yolov8\\train/images\\99_png.rf.8896f9527e9c818adb2f8977c2d402b4.jpg",
+      "width": 640,
+      "height": 640,
+      "split": "train"
+    },
+    {
+      "path": "c:\\Users\\AYUSH\\OneDrive\\Documents\\Project EPICS\\microplastic_100.v2i.yolov8\\train/images\\9_png.rf.098bc113116336df77aa9d9e4b792a65.jpg",
+      "width": 640,
+      "height": 640,
+      "split": "train"
+    },
+    {
+      "path": "c:\\Users\\AYUSH\\OneDrive\\Documents\\Project EPICS\\microplastic_100.v2i.yolov8\\train/images\\9_png.rf.a81155e8217b7e2e835a4d9313d7356b.jpg",
+      "width": 640,
+      "height": 640,
+      "split": "train"
+    },
+    {
+      "path": "c:\\Users\\AYUSH\\OneDrive\\Documents\\Project EPICS\\microplastic_100.v2i.yolov8\\train/images\\9_png.rf.b5458c6e72ad10085a2d347b882a20cd.jpg",
+      "width": 640,
+      "height": 640,
+      "split": "train"
+    },
+    {
+      "path": "c:\\Users\\AYUSH\\OneDrive\\Documents\\Project EPICS\\microplastic_100.v2i.yolov8\\valid/images\\100_png.rf.9297f9155721380a3dc6e2f5d94d93f2.jpg",
+      "width": 640,
+      "height": 640,
+      "split": "valid"
+    },
+    {
+      "path": "c:\\Users\\AYUSH\\OneDrive\\Documents\\Project EPICS\\microplastic_100.v2i.yolov8\\valid/images\\100_png.rf.a0c7683e8ed7e5c03d476471d9b70d94.jpg",
+      "width": 640,
+      "height": 640,
+      "split": "valid"
+    },
+    {
+      "path": "c:\\Users\\AYUSH\\OneDrive\\Documents\\Project EPICS\\microplastic_100.v2i.yolov8\\valid/images\\100_png.rf.d2f77e52b656841a7e405a0f1ee8ed4d.jpg",
+      "width": 640,
+      "height": 640,
+      "split": "valid"
+    },
+    {
+      "path": "c:\\Users\\AYUSH\\OneDrive\\Documents\\Project EPICS\\microplastic_100.v2i.yolov8\\valid/images\\101_png.rf.95476cfa9e4a57226be1311e4570b6d7.jpg",
+      "width": 640,
+      "height": 640,
+      "split": "valid"
+    },
+    {
+      "path": "c:\\Users\\AYUSH\\OneDrive\\Documents\\Project EPICS\\microplastic_100.v2i.yolov8\\valid/images\\102_png.rf.76b9b3a41f65969b50dbc4f1b0477eb0.jpg",
+      "width": 640,
+      "height": 640,
+      "split": "valid"
+    },
+    {
+      "path": "c:\\Users\\AYUSH\\OneDrive\\Documents\\Project EPICS\\microplastic_100.v2i.yolov8\\valid/images\\102_png.rf.dceccdbe415a014e14c166889688b7eb.jpg",
+      "width": 640,
+      "height": 640,
+      "split": "valid"
+    },
+    {
+      "path": "c:\\Users\\AYUSH\\OneDrive\\Documents\\Project EPICS\\microplastic_100.v2i.yolov8\\valid/images\\103_png.rf.117cbc8199d3e39189b4a4bfee11e214.jpg",
+      "width": 640,
+      "height": 640,
+      "split": "valid"
+    },
+    {
+      "path": "c:\\Users\\AYUSH\\OneDrive\\Documents\\Project EPICS\\microplastic_100.v2i.yolov8\\valid/images\\103_png.rf.8976cec8e1675ccfafaa2df3b8aecbdb.jpg",
+      "width": 640,
+      "height": 640,
+      "split": "valid"
+    },
+    {
+      "path": "c:\\Users\\AYUSH\\OneDrive\\Documents\\Project EPICS\\microplastic_100.v2i.yolov8\\valid/images\\105_png.rf.d2577b08aa174ec4ccd07786fa85de58.jpg",
+      "width": 640,
+      "height": 640,
+      "split": "valid"
+    },
+    {
+      "path": "c:\\Users\\AYUSH\\OneDrive\\Documents\\Project EPICS\\microplastic_100.v2i.yolov8\\valid/images\\106_png.rf.4521eb08cf5b103a8311b2009efb2936.jpg",
+      "width": 640,
+      "height": 640,
+      "split": "valid"
+    },
+    {
+      "path": "c:\\Users\\AYUSH\\OneDrive\\Documents\\Project EPICS\\microplastic_100.v2i.yolov8\\valid/images\\107_png.rf.67260ef403a59c76aa8c1708151e390f.jpg",
+      "width": 640,
+      "height": 640,
+      "split": "valid"
+    },
+    {
+      "path": "c:\\Users\\AYUSH\\OneDrive\\Documents\\Project EPICS\\microplastic_100.v2i.yolov8\\valid/images\\108_png.rf.351d45b291dc5dc1326bb7de15be2ebd.jpg",
+      "width": 640,
+      "height": 640,
+      "split": "valid"
+    },
+    {
+      "path": "c:\\Users\\AYUSH\\OneDrive\\Documents\\Project EPICS\\microplastic_100.v2i.yolov8\\valid/images\\108_png.rf.d562d834d1bfc6ec1e356ff7d2142ff2.jpg",
+      "width": 640,
+      "height": 640,
+      "split": "valid"
+    },
+    {
+      "path": "c:\\Users\\AYUSH\\OneDrive\\Documents\\Project EPICS\\microplastic_100.v2i.yolov8\\valid/images\\109_png.rf.41d9006b783649e52e4a9be64bd7eb7b.jpg",
+      "width": 640,
+      "height": 640,
+      "split": "valid"
+    },
+    {
+      "path": "c:\\Users\\AYUSH\\OneDrive\\Documents\\Project EPICS\\microplastic_100.v2i.yolov8\\valid/images\\109_png.rf.9a5fef57ca3d49e0716736b5bd69f1c2.jpg",
+      "width": 640,
+      "height": 640,
+      "split": "valid"
+    },
+    {
+      "path": "c:\\Users\\AYUSH\\OneDrive\\Documents\\Project EPICS\\microplastic_100.v2i.yolov8\\valid/images\\10_png.rf.ba815747197816d58c8eb665a3a7423b.jpg",
+      "width": 640,
+      "height": 640,
+      "split": "valid"
+    },
+    {
+      "path": "c:\\Users\\AYUSH\\OneDrive\\Documents\\Project EPICS\\microplastic_100.v2i.yolov8\\valid/images\\110_png.rf.a7d97186623ed143441c15f1b683aae2.jpg",
+      "width": 640,
+      "height": 640,
+      "split": "valid"
+    },
+    {
+      "path": "c:\\Users\\AYUSH\\OneDrive\\Documents\\Project EPICS\\microplastic_100.v2i.yolov8\\valid/images\\110_png.rf.cd391e0d36fa6f42a94bc5c7f4bb8b5e.jpg",
+      "width": 640,
+      "height": 640,
+      "split": "valid"
+    },
+    {
+      "path": "c:\\Users\\AYUSH\\OneDrive\\Documents\\Project EPICS\\microplastic_100.v2i.yolov8\\valid/images\\111_png.rf.2ad93f3aa957f8790ba5746c02b8349f.jpg",
+      "width": 640,
+      "height": 640,
+      "split": "valid"
+    },
+    {
+      "path": "c:\\Users\\AYUSH\\OneDrive\\Documents\\Project EPICS\\microplastic_100.v2i.yolov8\\valid/images\\112_png.rf.4ec4e7530d9cfcc418277af5c68430b7.jpg",
+      "width": 640,
+      "height": 640,
+      "split": "valid"
+    },
+    {
+      "path": "c:\\Users\\AYUSH\\OneDrive\\Documents\\Project EPICS\\microplastic_100.v2i.yolov8\\valid/images\\112_png.rf.7554c60e31af5a31a7cbf06a16d91247.jpg",
+      "width": 640,
+      "height": 640,
+      "split": "valid"
+    },
+    {
+      "path": "c:\\Users\\AYUSH\\OneDrive\\Documents\\Project EPICS\\microplastic_100.v2i.yolov8\\valid/images\\113_png.rf.4de915a8d9e0d261805c22e6e6575b6c.jpg",
+      "width": 640,
+      "height": 640,
+      "split": "valid"
+    },
+    {
+      "path": "c:\\Users\\AYUSH\\OneDrive\\Documents\\Project EPICS\\microplastic_100.v2i.yolov8\\valid/images\\113_png.rf.5d3099f29880adbbeef7d2cef3fd47ef.jpg",
+      "width": 640,
+      "height": 640,
+      "split": "valid"
+    },
+    {
+      "path": "c:\\Users\\AYUSH\\OneDrive\\Documents\\Project EPICS\\microplastic_100.v2i.yolov8\\valid/images\\114_png.rf.0281e3a7c27a29a81debcb2c7b97cf42.jpg",
+      "width": 640,
+      "height": 640,
+      "split": "valid"
+    },
+    {
+      "path": "c:\\Users\\AYUSH\\OneDrive\\Documents\\Project EPICS\\microplastic_100.v2i.yolov8\\valid/images\\115_png.rf.9989b2aee00360fd2305e06c9c0436bc.jpg",
+      "width": 640,
+      "height": 640,
+      "split": "valid"
+    },
+    {
+      "path": "c:\\Users\\AYUSH\\OneDrive\\Documents\\Project EPICS\\microplastic_100.v2i.yolov8\\valid/images\\117_png.rf.18cd20ea50749994fc9c1c18b84db37c.jpg",
+      "width": 640,
+      "height": 640,
+      "split": "valid"
+    },
+    {
+      "path": "c:\\Users\\AYUSH\\OneDrive\\Documents\\Project EPICS\\microplastic_100.v2i.yolov8\\valid/images\\118_png.rf.a4f22e303ddcc3176aef5e069b7e6e9c.jpg",
+      "width": 640,
+      "height": 640,
+      "split": "valid"
+    },
+    {
+      "path": "c:\\Users\\AYUSH\\OneDrive\\Documents\\Project EPICS\\microplastic_100.v2i.yolov8\\valid/images\\11_png.rf.e09e0324a3588386bd2d297b75f08a90.jpg",
+      "width": 640,
+      "height": 640,
+      "split": "valid"
+    },
+    {
+      "path": "c:\\Users\\AYUSH\\OneDrive\\Documents\\Project EPICS\\microplastic_100.v2i.yolov8\\valid/images\\120_png.rf.86b44bc8c264148c291c7685524c8c09.jpg",
+      "width": 640,
+      "height": 640,
+      "split": "valid"
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>{% block title %}Microplastic Detector{% endblock %}</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}" />
+  {% block head_extra %}{% endblock %}
+</head>
+<body>
+  <header class="site-header">
+    <div class="container flex-between">
+      <h1 class="app-title">Microplastic Detector</h1>
+      <nav class="nav">
+        <a href="/" class="nav-link">Upload</a>
+        <button id="themeToggle" class="btn btn-sm" type="button" aria-label="Toggle theme">🌓</button>
+      </nav>
+    </div>
+  </header>
+  <main class="container" id="main">
+    {% block content %}{% endblock %}
+  </main>
+  <footer class="site-footer">
+    <div class="container">
+      <small>&copy; {{ datetime.utcnow().year }} Microplastic Analysis</small>
+    </div>
+  </footer>
+  <script>
+    const btn = document.getElementById('themeToggle');
+    const root = document.documentElement;
+    const saved = localStorage.getItem('theme');
+    if (saved) root.dataset.theme = saved;
+    btn && btn.addEventListener('click', () => {
+      const next = root.dataset.theme === 'dark' ? 'light' : 'dark';
+      root.dataset.theme = next; localStorage.setItem('theme', next);
+    });
+  </script>
+</body>
+</html>

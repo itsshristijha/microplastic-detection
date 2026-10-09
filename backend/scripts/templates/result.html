@@ -1,0 +1,126 @@
+{% extends 'base.html' %}
+{% block title %}Results | Microplastic Detector{% endblock %}
+{% block content %}
+<section>
+  <h2>Inference Result</h2>
+  <div class="grid cols-3" style="margin-top:.75rem;">
+    <div class="image-box">
+      <h4>Input</h4>
+      <img src="{{ input_image }}" alt="input">
+    </div>
+    {% if output_image_a and output_image_b %}
+    <div class="image-box">
+      <h4>Model A <span class="pill">{{ model_name_a }}</span></h4>
+      <img src="{{ output_image_a }}" alt="output A">
+      <div class="actions"><a class="btn btn-sm" href="{{ output_image_a }}" download>Download A</a></div>
+    </div>
+    <div class="image-box">
+      <h4>Model B <span class="pill alt">{{ model_name_b }}</span></h4>
+      <img src="{{ output_image_b }}" alt="output B">
+      <div class="actions"><a class="btn btn-sm" href="{{ output_image_b }}" download>Download B</a></div>
+    </div>
+    {% else %}
+    <div class="image-box">
+      <h4>Annotated</h4>
+      <img src="{{ output_image }}" alt="output">
+      <div class="actions"><a class="btn btn-sm" href="{{ output_image }}" download>Download</a></div>
+    </div>
+    {% endif %}
+  </div>
+</section>
+
+<section style="margin-top:1.5rem;">
+  <h3>Counts by Class</h3>
+  {% if pollution %}
+  <div class="card" style="margin-bottom:1rem; max-width:480px;">
+    <h4 style="margin-top:0;">Pollution Summary</h4>
+    <p><strong>Status:</strong> <span class="pill {% if pollution.status != 'OK' %}alt{% endif %}">{{ pollution.status }}</span></p>
+    <p><strong>Total detected:</strong> {{ pollution.count }}</p>
+    <p><strong>Thresholds:</strong> Little ≥ {{ pollution.little_threshold }}, Very &gt; {{ pollution.very_threshold }}</p>
+    <p><strong>Coverage vs very-threshold:</strong> {{ pollution.percent }}%</p>
+    {% if pollution.area_px is defined and pollution.area_px %}
+    <p><strong>Total area (px):</strong> {{ pollution.area_px }}{% if pollution.area_um2 %} — {{ pollution.area_um2 }} μm²{% endif %}</p>
+    {% endif %}
+  </div>
+  {% endif %}
+  {% if counts_a and counts_b %}
+  <div class="counts-wrapper">
+    <div class="card">
+      <h4 style="margin-top:0;">Model A</h4>
+      <table>
+        <tr><th>Class</th><th>Count</th></tr>
+        {% for k, v in counts_a.items() %}
+        <tr><td>{{ k }}</td><td>{{ v }}</td></tr>
+        {% endfor %}
+      </table>
+    </div>
+    <div class="card">
+      <h4 style="margin-top:0;">Model B</h4>
+      <table>
+        <tr><th>Class</th><th>Count</th></tr>
+        {% for k, v in counts_b.items() %}
+        <tr><td>{{ k }}</td><td>{{ v }}</td></tr>
+        {% endfor %}
+      </table>
+    </div>
+    {% if counts_delta %}
+    <div class="card">
+      <h4 style="margin-top:0;">Difference (B - A)</h4>
+      <table>
+        <tr><th>Class</th><th>A</th><th>B</th><th>Δ</th></tr>
+        {% for row in counts_delta %}
+        <tr>
+          <td>{{ row.class }}</td>
+          <td>{{ row.a }}</td>
+          <td>{{ row.b }}</td>
+          <td><span class="{% if row.delta >= 0 %}delta-pos{% else %}delta-neg{% endif %}">{{ row.delta }}</span></td>
+        </tr>
+        {% endfor %}
+      </table>
+    </div>
+    {% endif %}
+  </div>
+  {% else %}
+    {% if counts %}
+    <div class="card" style="max-width:460px;">
+      <table>
+        <tr><th>Class</th><th>Count</th></tr>
+        {% for k, v in counts.items() %}
+        <tr><td>{{ k }}</td><td>{{ v }}</td></tr>
+        {% endfor %}
+      </table>
+    </div>
+    {% else %}
+      <p>No detections.</p>
+    {% endif %}
+  {% endif %}
+</section>
+
+<section style="margin-top:1.5rem;">
+  <h3>Detections</h3>
+  {% if detections_a and detections_b %}
+  <div class="grid" style="grid-template-columns:repeat(auto-fit,minmax(320px,1fr));">
+    <div class="card">
+      <h4 style="margin-top:0;">Model A</h4>
+      <div class="mono-block">{{ detections_a | tojson(indent=2) }}</div>
+    </div>
+    <div class="card">
+      <h4 style="margin-top:0;">Model B</h4>
+      <div class="mono-block">{{ detections_b | tojson(indent=2) }}</div>
+    </div>
+  </div>
+  {% else %}
+    {% if detections %}
+    <div class="card">
+      <div class="mono-block">{{ detections | tojson(indent=2) }}</div>
+    </div>
+    {% else %}
+      <p>No detections.</p>
+    {% endif %}
+  {% endif %}
+</section>
+
+<div class="actions" style="margin-top:2rem;">
+  <a class="btn" href="/">Analyze Another Image</a>
+</div>
+{% endblock %}

@@ -1,0 +1,25 @@
+{
+  "timestamp": "2025-10-09T17:05:00.373635Z",
+  "weights": "models\\best.pt",
+  "data": "C:\\Users\\AYUSH\\OneDrive\\Documents\\Project EPICS\\microplastic_100.v2i.yolov8\\data.yaml",
+  "metrics": {
+    "box": {
+      "map": 0.43385998726639946,
+      "map50": 0.9027179695622836,
+      "map75": 0.34189398159331164,
+      "maps": [
+        0.6562216998928807,
+        0.441194955556443,
+        0.41260451041021157,
+        0.22541878320606262
+      ]
+    }
+  },
+  "speed_ms": {
+    "preprocess": 1.590413146788768,
+    "inference": 67.49820366430554,
+    "loss": 7.241384270761548e-05,
+    "postprocess": 1.8751939654787841
+  },
+  "runs_dir": "C:\\Users\\AYUSH\\OneDrive\\Documents\\Project EPICS\\runs\\detect\\val"
+}
