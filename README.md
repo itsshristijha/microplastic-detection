@@ -228,14 +228,14 @@ Open [http://localhost:5173](http://localhost:5173) in your browser.
 
 | Service | Provider |
 |---|---|
-| **Frontend** | [Vercel](https://vercel.com) — the repository includes a root-level `vercel.json` |
+| **Frontend** | [Vercel](https://vercel.com) — deploy the `frontend/` directory |
 | **Backend** | [Render](https://render.com) — the repository includes a `render.yaml` blueprint for the Flask/ONNX API |
 | **Database** | [MongoDB Atlas](https://www.mongodb.com/atlas) — Shared Tier cloud cluster |
 
 ### Deploy
 
 1. Create the Flask API from this repository in Render using the included `render.yaml` blueprint. Set `MONGO_URI` in Render if you want persistent reports and dashboard statistics. The API health-check endpoint is `/api/health`.
-2. Import the GitHub repository into Vercel. Leave **Root Directory** at the repository root; the included configuration installs and builds the Vite app in `frontend/`.
+2. Import the GitHub repository into Vercel and set **Root Directory** to `frontend`. Its `vercel.json` installs and builds the Vite app and rewrites client-side routes.
 3. In Vercel project settings, set `VITE_API_BASE_URL` to the deployed Render service URL (without a trailing slash) and add the `VITE_FIREBASE_*` values from `frontend/.env.example`. Redeploy after setting environment variables.
 4. In Firebase Authentication settings, add the Vercel deployment domain to the authorized domains.
 

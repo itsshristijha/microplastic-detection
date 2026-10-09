@@ -5,6 +5,7 @@ import { Droplets, Mail, Lock, ArrowRight, Loader2 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { useAuth } from "@/contexts/AuthContext";
+import { isFirebaseConfigured } from "@/lib/firebase";
 import { toast } from "sonner";
 
 const Login = () => {
@@ -47,6 +48,11 @@ const Login = () => {
 
         <h1 className="text-2xl font-bold text-center mb-1">Welcome back</h1>
         <p className="text-muted-foreground text-center text-sm mb-8">Sign in to your account</p>
+        {!isFirebaseConfigured && (
+          <p className="text-sm text-status-moderate mb-4">
+            Authentication is unavailable until the Firebase environment variables are configured.
+          </p>
+        )}
 
         <form onSubmit={handleLogin} className="space-y-4">
           <div className="relative">

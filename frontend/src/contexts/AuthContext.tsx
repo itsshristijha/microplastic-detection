@@ -24,6 +24,10 @@ export const AuthProvider: React.FC<{ children: ReactNode }> = ({ children }) =>
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
+    if (!auth) {
+      setLoading(false);
+      return;
+    }
     const unsubscribe = onAuthStateChanged(auth, (currentUser) => {
       setUser(currentUser);
       setLoading(false);
@@ -31,10 +35,19 @@ export const AuthProvider: React.FC<{ children: ReactNode }> = ({ children }) =>
     return () => unsubscribe();
   }, []);
 
-  const login = (email: string, pass: string) => signInWithEmailAndPassword(auth, email, pass).then(() => {});
-  
+  const requireAuth = () => {
+    if (!auth) {
+      throw new Error("Firebase is not configured. Add the VITE_FIREBASE_* environment variables to enable authentication.");
+    }
+    return auth;
+  };
+
+  const login = async (email: string, pass: string) => {
+    await signInWithEmailAndPassword(requireAuth(), email, pass);
+  };
+
   const signup = async (email: string, pass: string, name: string) => {
-    const res = await createUserWithEmailAndPassword(auth, email, pass);
+    const res = await createUserWithEmailAndPassword(requireAuth(), email, pass);
     if (res.user) {
       await updateProfile(res.user, { displayName: name });
     }

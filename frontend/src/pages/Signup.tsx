@@ -5,6 +5,7 @@ import { Droplets, Mail, Lock, User, ArrowRight, Loader2 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { useAuth } from "@/contexts/AuthContext";
+import { isFirebaseConfigured } from "@/lib/firebase";
 import { toast } from "sonner";
 
 const roles = ["General User", "Lab Technician", "Admin"];
@@ -51,6 +52,11 @@ const Signup = () => {
 
         <h1 className="text-2xl font-bold text-center mb-1">Create Account</h1>
         <p className="text-muted-foreground text-center text-sm mb-8">Join the environmental monitoring platform</p>
+        {!isFirebaseConfigured && (
+          <p className="text-sm text-status-moderate mb-4">
+            Authentication is unavailable until the Firebase environment variables are configured.
+          </p>
+        )}
 
         <form onSubmit={handleSignup} className="space-y-4">
           <div className="relative">
