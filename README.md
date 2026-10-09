@@ -10,6 +10,8 @@
 [![AI Engine](https://img.shields.io/badge/AI%2FML-YOLOv8%20%2B%20PyTorch-EE4C2C?logo=pytorch&style=flat-square)](https://ultralytics.com/)
 [![Database](https://img.shields.io/badge/Database-MongoDB%20Atlas-47A248?logo=mongodb&style=flat-square)](https://www.mongodb.com/)
 [![License](https://img.shields.io/badge/License-MIT-blue?style=flat-square)](LICENSE)
+[![Live Frontend](https://img.shields.io/badge/Live%20Frontend-Vercel-black?logo=vercel&style=flat-square)](https://microplastic-detection-five.vercel.app/)
+[![Backend Health](https://img.shields.io/badge/Backend%20API-Render-46E3B7?logo=render&style=flat-square)](https://elle-api.onrender.com/api/health)
 
 </div>
 
@@ -228,15 +230,15 @@ Open [http://localhost:5173](http://localhost:5173) in your browser.
 
 | Service | Provider |
 |---|---|
-| **Frontend** | [Vercel](https://vercel.com) — deploy the `frontend/` directory |
-| **Backend** | [Render](https://render.com) — the repository includes a `render.yaml` blueprint for the Flask/ONNX API |
+| **Frontend** | [Live Vercel site](https://microplastic-detection-five.vercel.app/) — deploy the `frontend/` directory |
+| **Backend** | [Render API health](https://elle-api.onrender.com/api/health) — the repository includes a `render.yaml` blueprint for the Flask/ONNX API |
 | **Database** | [MongoDB Atlas](https://www.mongodb.com/atlas) — Shared Tier cloud cluster |
 
 ### Deploy
 
 1. Create the Flask API from this repository in Render using the included `render.yaml` blueprint. Set `MONGO_URI` in Render if you want persistent reports and dashboard statistics. The API health-check endpoint is `/api/health`.
 2. Import the GitHub repository into Vercel and set **Root Directory** to `frontend`. Its `vercel.json` installs and builds the Vite app and rewrites client-side routes.
-3. In Vercel project settings, set `VITE_API_BASE_URL` to the deployed Render service URL (without a trailing slash) and add the `VITE_FIREBASE_*` values from `frontend/.env.example`. Redeploy after setting environment variables.
+3. In Vercel project settings, `VITE_API_BASE_URL` should point to the deployed Render service URL (without a trailing slash). Add the `VITE_FIREBASE_*` values from `frontend/.env.example` to enable sign-in and protected pages, then redeploy.
 4. In Firebase Authentication settings, add the Vercel deployment domain to the authorized domains.
 
 The Vercel deployment hosts the React frontend; the Flask inference API must run on a Python-capable host such as Render. Do not commit populated `.env` files or production credentials.
